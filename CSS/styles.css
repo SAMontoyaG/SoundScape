@@ -3,11 +3,16 @@
 }
 
 body{
-    background: linear-gradient(93deg, rgb(0, 158, 124), #000000 78.80%);               /* para colocarle el degradado / / para poner el color a la pagina */
+    background-color: rgb(36, 169, 231) ;             /* para colocarle el degradado / / para poner el color a la pagina */
 }
 
-nav{
-    color: white;
+nav {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+nav {
+    color: black;
     display: flex;
     justify-content: space-around;      /* para separalos */
     align-items: center; /* esto centra todos os elemnetos  */
@@ -18,8 +23,8 @@ nav ul{
     list-style: none;
 }
 
-nav ul li:hover{
-    background-color: yellow;
+nav ul li a:hover{
+    color: rgb(171, 128, 228);
 }
 
 nav ul li{
@@ -28,28 +33,35 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: white;              /* color del texto de las a */
+    color: black;              /* color del texto de las a */
     font-size: 20px;             /* para agrandar el texto */
 }
 
 nav span{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
 }
 
 nav span a{
-    color: white;
+    color: black;
+}
+
+nav span a:hover{
+    color: rgb(171, 128, 228);
 }
 
 .btn{
-    background-color: rgb(255, 212, 19);
+    background-color: rgb(136, 0, 248);
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     padding: 10px 20px; 
     border-radius: 10px;
 }
+ .btn:hover{
+    color: black
+ }
 
 #texto-principal{
     width: 30%;

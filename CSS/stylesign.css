@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box; /* caja */
-  
-  }
+    box-sizing: border-box; /* caja */
+    
+    }
     div a h2{
       display: flex;
       margin-right: 90%;
@@ -56,10 +56,10 @@
     }
     
     input:focus {
-      border: 2px solid #3498DB;
-      box-shadow: none;
-      }
-      
+    border: 2px solid #3498DB;
+    box-shadow: none;
+    }
+    
     .btn {
       border: 2px solid transparent;
       background-color: rgb(0, 158, 124);
@@ -88,7 +88,7 @@
         margin-top: 12px;
     }
     .back{
-      width: 40%;
+      width: 26%;
       margin-top: -30px;
       font-size: 15px;
       

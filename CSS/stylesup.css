@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(36, 169, 231) ;             /* para colocarle el degradado / / para poner el color a la pagina */
+    padding: 50px;
+    width: 100%;
+    font-size: 130%;
+    
+     }
+   
+   .title{
+    display: flex;
+    background-color: white;
+    color: #777;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 100%;
+     }
+     
+     #create-acount{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 40%;
+    }
+    div h1{
+     width: 70%
+    }
+   
+    
+
+    

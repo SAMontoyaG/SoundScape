@@ -55,7 +55,7 @@ body {
     }
     .btn {
         border: 2px solid transparent;
-        background-color: rgb(0, 158, 124);
+        background-color: rgba(0, 158, 124, 0.204);
         color: #ffffff;
         font-size: 16px;
         line-height: 25px;

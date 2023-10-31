@@ -1,0 +1,179 @@
+#pagina-planes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+
+  }
+
+h1.title {
+  text-align: center;
+  color:white;
+}
+
+nav img{
+    width: 5%;
+}
+
+
+  
+  #planes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
+  }
+
+  #planes-container .plan {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0.5rem;
+    width:400px;
+    border: 1px solid hsla(215, 28%, 17%, 1);
+    border-radius: 1rem;
+    background-color: hsla(215, 28%, 17%, 0.75);
+  }
+  
+  #planes-container .plan:first-child {
+    padding-bottom: none;
+  }
+  
+  #planes-container .plan h2 {
+    font-size: 24px;
+    margin-bottom: none;
+  }
+  
+  #planes-container .plan p {
+    color: #ddd;
+  }
+  
+  #planes-container .plan span {
+    display: block;
+    margin-top: none;
+    font-size: 20px;
+    color: #27ae60;
+  }
+  
+  #planes-container .plan button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 3rem;
+  }
+
+  h3{
+    font-weight: 900;
+  }
+  #planes-container .plan button:hover{
+    background-color: hsla(129, 78%, 30%, 1);
+    color:black;
+  }
+
+
+  *{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgb(36, 169, 231) ;             /* para colocarle el degradado / / para poner el color a la pagina */
+}
+
+nav {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.904);
+    margin-bottom: 3rem;
+}
+
+nav {
+    color: black;
+    display: flex;
+    justify-content: space-around;      /* para separalos */
+    align-items: center; /* esto centra todos os elemnetos  */
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    color: rgb(171, 128, 228);
+}
+
+nav ul li{
+    margin: 0 30px;             
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;              /* color del texto de las a */
+    font-size: 20px;             /* para agrandar el texto */
+}
+
+nav span{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav span a{
+    color: black;
+}
+
+nav span a:hover{
+    color: rgb(171, 128, 228);
+}
+
+.btn{
+    background-color: rgb(136, 0, 248);
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+ .btn:hover{
+    color: black
+ }
+
+#texto-principal{
+    width: 30%;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main span{
+    font-size: 40px;
+    display: block;
+}
+
+nav img{
+  width: 5%;
+}
+
+
+
+
+

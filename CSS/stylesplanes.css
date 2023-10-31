@@ -152,28 +152,8 @@ nav span a:hover{
     color: black
  }
 
-#texto-principal{
-    width: 30%;
-    color: white;
-}
-
-main{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-}
-
-main span{
-    font-size: 40px;
-    display: block;
-}
-
 nav img{
   width: 5%;
 }
-
-
-
 
 

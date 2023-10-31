@@ -1,0 +1,151 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:rgb(36, 169, 231);/* para colocarle el degradado / / para poner el color a la pagina */
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: black;
+    display: flex;
+    justify-content: space-around;/* para separalos */
+    align-items: center; /* esto centra todos os elemnetos  */
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    color: rgb(171, 128, 228);
+}
+
+
+nav ul li{
+    margin: 0 30px;             
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;              
+    font-size: 20px;            
+}
+
+nav span{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav span a{
+    color: black;
+}
+ul {
+    list-style: none;
+}
+main h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-weight: 900;
+}
+    /* CLASES */
+    
+.btn{
+    background-color: rgb(86, 151, 255);
+    color: black;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+}
+ .list {
+    display: flex;
+    list-style: none;
+    /*Aporte Higuita*/
+    justify-content: space-around;
+    gap: 15px;
+    /* Reduzco el espacio entre los planes */
+    background-color: white;
+    /* Cambio el fondo a blanco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+ }
+div.fondo{
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregamos sombreado */
+    border-radius: 10px; /* Hacemos las cards redondeadas */
+}
+div.fondo2{
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregamos sombreado */
+    border-radius: 10px; /* Hacemos las cards redondeadas */
+}
+      
+nav img{
+    width: 5%;
+}
+
+
+/*Edit Higuita*/
+#pagina-planes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+  }
+  
+  #planes-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* Reduzco el espacio entre los planes */
+    background-color: white;
+    /* Cambio el fondo a blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 115px;
+  }
+  
+  #planes-container .plan {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregamos sombreado */
+    border-radius: 10px; /* Hacemos las cards redondeadas */
+  }
+  
+  #planes-container .plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    /* Color de texto más oscuro */
+  }

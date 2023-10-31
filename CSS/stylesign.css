@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box; /* caja */
-    
+    font-family: 'Poppins', sans-serif;
     }
+     
     div a h2{
       display: flex;
       margin-right: 90%;

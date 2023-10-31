@@ -1,0 +1,117 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    
+    background-color: rgb(36, 169, 231) ;             /* para colocarle el degradado / / para poner el color a la pagina */
+}
+
+nav {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.904);
+    color: black;
+    display: flex;
+    justify-content: space-around;      /* para separalos */
+    align-items: center; /* esto centra todos os elemnetos  */
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    color: rgb(171, 128, 228);
+}
+
+nav ul li{
+    margin: 0 30px;             
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;              /* color del texto de las a */
+    font-size: 20px;             /* para agrandar el texto */
+}
+
+nav span{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav span a{
+    color: black;
+}
+
+nav span a:hover{
+    color: rgb(171, 128, 228);
+}
+
+h4{
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contacto{
+    justify-content: center;
+}
+
+.app-tittle {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+input {
+   font-size: x-large;
+   width: 1000px;
+}
+
+.info-contact {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 7%;
+    
+}
+
+.logo{
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+a{
+    color: white;
+}
+
+img { 
+    width: 100px;
+    height: 85px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;      /* para separalos */
+    align-items: center; /* esto centra todos os elemnetos  */
+    margin-top: 8%;
+}
+
+.btn{
+    background-color: rgb(136, 0, 248);
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
+.btn:hover{
+    color: black
+ }

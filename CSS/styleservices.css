@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:rgb(36, 169, 231);/* para colocarle el degradado / / para poner el color a la pagina */
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: black;
+    display: flex;
+    justify-content: space-around;/* para separalos */
+    align-items: center; /* esto centra todos os elemnetos  */
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    color: rgb(171, 128, 228);
+}
+
+
+nav ul li{
+    margin: 0 30px;             
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;              
+    font-size: 20px;            
+}
+
+nav span{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav span a{
+    color: black;
+}
+ul {
+    list-style: none;
+}
+main h1 {
+    display: flex;
+    justify-content: center;
+}
+ul h3 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+ul li {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+}
+    
+    /* CLASES */
+    
+.btn{
+    background-color: rgb(86, 151, 255);
+    color: black;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+}
+ .list {
+    display: flex;
+    list-style: none;
+      
+}
+nav img{
+    width: 5%;
+}

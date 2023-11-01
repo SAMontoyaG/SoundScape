@@ -80,6 +80,14 @@ main span{
     display: block;
 }
 
+main div p{
+    font-size: larger;
+}
+
+.textp{
+    margin: 0 30px;
+}
+
 section{
     display: flex;
     width: 700px;
@@ -102,13 +110,24 @@ section img:hover{
     filter: contrast(120%);
 }
 
-
-
-div div video{
-    border-radius: 20px;
+div div{
+    background-color: rgba(114, 128, 131, 0.534);
+    border-radius: 15px;
 }
 
-.video{
+div div p{
+    margin: 0 20px;
+}
+
+div div h2{
+    margin: 0 20px;
+}
+
+div div video{
+    border-radius: 10px;
+}
+
+.textvid{
     color: white;
     font-size: larger;
     margin-left: 25px;
@@ -127,3 +146,49 @@ div div video{
     font-size: large;
     color: white;
 }
+
+.titulo{
+    color: black;
+}
+
+.play{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: 'Lobster', sans-serif;
+}
+
+.sectionvid{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.play{
+    background-color: black;
+    width: 49.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playdiv{
+    border-radius: 0 0 50% 0;
+}
+
+.playdiv2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-radius: 50% 0 0 0;
+}
+
+div div h3{
+    margin: 15px;
+    font-family: 'Lora', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Tilt Neon', sans-serif;
+}
+
+
+
